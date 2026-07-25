@@ -1,6 +1,6 @@
 # tsvsheet
 
-> **A spreadsheet for plain text.** A `.tsvt` file _is_ the spreadsheet — a tab-separated grid whose cells are values or `=formulas` that address other cells in A1 notation, computed by a processor, versioned as text, diffed line by line.
+> **A spreadsheet in plain text.** A `.tsvt` file _is_ the spreadsheet — a tab-separated grid whose cells are values or `=formulas` that address other cells in A1 notation, computed by a processor, versioned as text, diffed line by line.
 
 Spreadsheets earned their place by making computation visible: a grid you can read, formulas you can point at. What they never earned is a file format — binary blobs and XML archives that no diff can explain and no text editor can open. tsvsheet keeps the grid and the formulas and drops everything else: a `.tsvt` file is tab-separated text, so `=if(A1, C3, D3)` is written verbatim with no quoting or escaping, versioned like source code, reviewed line by line.
 
